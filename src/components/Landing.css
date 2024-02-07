@@ -1,0 +1,44 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+  background-color: azure;
+}
+
+.center-content-top {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.center-content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center-content-card {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #252525;
+  width: 100%;
+  position: fixed; /* Stick the footer to the bottom */
+  bottom: 0; /* Stick the footer to the bottom */
+  color: #f0f0f0;
+}
+
+.card-ind {
+  margin: 15px;
+}
