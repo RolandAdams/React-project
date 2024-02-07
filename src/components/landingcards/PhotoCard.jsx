@@ -1,7 +1,7 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
-import image from "../Mountain.png";
+import image from "./Mountain.png";
 import "./Card.css";
 
 function PhotoCard() {

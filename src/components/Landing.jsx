@@ -1,12 +1,12 @@
 import React from "react";
-import NavBar from "./NavBar";
-import Footer from "./Footer";
+import NavBar from "./navbar/NavBar";
+import Footer from "./footer/Footer";
 import "./Landing.css";
 import { TypeAnimation } from "react-type-animation";
-import CodeCard from "./CodeCard";
-import PhotoCard from "./PhotoCard";
-import ResumeCard from "./ResumeCard";
-import AboutMeCard from "./AboutMeCard";
+import CodeCard from "./landingcards/CodeCard";
+import PhotoCard from "./landingcards/PhotoCard";
+import ResumeCard from "./landingcards/ResumeCard";
+import AboutMeCard from "./landingcards/AboutMeCard";
 
 const Landing = () => {
   return (
