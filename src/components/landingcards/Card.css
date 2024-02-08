@@ -1,3 +1,7 @@
 .center-btn {
   text-align: center;
 }
+
+.card-height {
+  min-height: 475px;
+}

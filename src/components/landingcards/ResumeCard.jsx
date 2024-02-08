@@ -5,17 +5,18 @@ import image from "./resume.png";
 
 function ResumeCard() {
   return (
-    <Card style={{ width: "18rem" }}>
+    <Card className="card-height" style={{ width: "18rem" }}>
       <Card.Img variant="top" src={image} />
       <Card.Body>
-        <Card.Title>Resume</Card.Title>
-        <Card.Text>
+        <Card.Title className="center-btn">Resume</Card.Title>
+        <Card.Text className="center-btn">
           Checkout out my professional resume here. Feel free to share it with
           others. I am always open to new opportunitites where I can grow and
           contribute!
         </Card.Text>
+        <br />
         <div className="center-btn">
-          <Button variant="primary">Get it Here!</Button>
+          <Button variant="secondary">Get it Here!</Button>
         </div>
       </Card.Body>
     </Card>
