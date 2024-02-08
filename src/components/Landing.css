@@ -6,6 +6,10 @@ body {
   background-color: azure;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 .center-content-top {
   flex: 1;
   display: flex;
@@ -28,14 +32,15 @@ body {
   align-items: center;
   margin: 15px;
 }
+.main-content {
+  margin: 4rem;
+}
 
 .footer {
   text-align: center;
   padding: 20px;
   background-color: #252525;
   width: 100%;
-  position: fixed; /* Stick the footer to the bottom */
-  bottom: 0; /* Stick the footer to the bottom */
   color: #f0f0f0;
 }
 

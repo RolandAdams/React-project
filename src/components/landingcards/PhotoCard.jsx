@@ -6,17 +6,17 @@ import "./Card.css";
 
 function PhotoCard() {
   return (
-    <Card style={{ width: "18rem" }}>
+    <Card className="card-height" style={{ width: "18rem" }}>
       <Card.Img variant="top" src={image} />
       <Card.Body>
-        <Card.Title>Photography</Card.Title>
-        <Card.Text>
+        <Card.Title className="center-btn">Photography</Card.Title>
+        <Card.Text className="center-btn">
           Photography is just a hobby of mine. I'm by no definition a pro! These
-          photos simply document my family's travels. If you se something you
+          photos simply document my family's travels. If you see something you
           like feel free to let me know!
         </Card.Text>
         <div className="center-btn">
-          <Button variant="primary">Gallery</Button>
+          <Button variant="secondary">Gallery</Button>
         </div>
       </Card.Body>
     </Card>
